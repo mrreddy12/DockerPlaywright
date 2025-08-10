@@ -1,12 +1,14 @@
-# Start with smaller Debian slim image
-FROM mcr.microsoft.com/playwright:v1.54.0-noble as base
+FROM registry.access.redhat.com/ubi9/nodejs-18
 
-# Remove other browsers (firefox, webkit)
-RUN rm -rf /ms-playwright/firefox-* \
-    && rm -rf /ms-playwright/webkit-*
+# Install dependencies for Chromium
+RUN dnf install -y chromium liberation-fonts ipa-gothic-fonts \
+    libXcomposite libXdamage libXrandr libXcursor libXinerama libXi libXScrnSaver \
+    alsa-lib atk cups-libs gtk3 pango xorg-x11-server-Xvfb && \
+    dnf clean all
 
-# Optionally remove debug symbols, docs, man pages to save space
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /usr/share/doc /usr/share/man /usr/share/info
+# Install Playwright Chromium only
+RUN npm install -g playwright && \
+    npx playwright install chromium
 
 # Copy your Playwright tests
 WORKDIR /app
