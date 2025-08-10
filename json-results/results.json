@@ -97,18 +97,18 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 18606,
+                  "status": "timedOut",
+                  "duration": 52506,
                   "error": {
-                    "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'",
-                    "stack": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'"
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                   },
                   "errors": [
                     {
-                      "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'"
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                     },
                     {
-                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/f65e32856cc0cb76b0168a0091d31336.zip'"
+                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/d3a88507667aa9b563a7fee80841b998.zip'"
                     },
                     {
                       "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -117,14 +117,9 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-10T07:29:24.057Z",
+                  "startTime": "2025-08-10T15:33:17.336Z",
                   "annotations": [],
                   "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/app/test-results/01-browsers-01-chrome-firefox/test-finished-1.png"
-                    },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
@@ -167,18 +162,21 @@
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
-                  "status": "failed",
-                  "duration": 20806,
+                  "status": "timedOut",
+                  "duration": 41117,
                   "error": {
-                    "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'",
-                    "stack": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'"
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                   },
                   "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
                     {
                       "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'"
                     },
                     {
-                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/098899fbc87128ea6f098a4260fd06f5.zip'"
+                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/06d1e81cb39b4153b29515749570aa01.zip'"
                     },
                     {
                       "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -194,14 +192,9 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-10T07:29:18.260Z",
+                  "startTime": "2025-08-10T15:33:24.170Z",
                   "annotations": [],
                   "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/app/test-results/02-page-getPageInfo-firefox/test-finished-1.png"
-                    },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
@@ -242,7 +235,7 @@
                   "workerIndex": 2,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 17952,
+                  "duration": 12817,
                   "errors": [],
                   "stdout": [
                     {
@@ -254,7 +247,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-10T07:30:54.720Z",
+                  "startTime": "2025-08-10T15:35:27.387Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -288,8 +281,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-10T07:29:03.440Z",
-    "duration": 133536.542,
+    "startTime": "2025-08-10T15:32:59.522Z",
+    "duration": 165456.479,
     "expected": 1,
     "skipped": 0,
     "unexpected": 2,
