@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "wordpress_sec_d8b218b71a6c2f6db5788a38232e0f4b",
+      "value": "admin%7C1728657800%7CP3fnnJqFAPeOJY1IoepEZrQFai9hb8xd2R1KDdskmON%7Cce16744c9f09f9f8abec640ee66d1fd5631d16ca401482bec2e73361cfcf8c53",
+      "domain": "mrreddyautomation.com",
+      "path": "/wp-content/plugins",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_sec_d8b218b71a6c2f6db5788a38232e0f4b",
+      "value": "admin%7C1728657800%7CP3fnnJqFAPeOJY1IoepEZrQFai9hb8xd2R1KDdskmON%7Cce16744c9f09f9f8abec640ee66d1fd5631d16ca401482bec2e73361cfcf8c53",
+      "domain": "mrreddyautomation.com",
+      "path": "/wp-admin",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_test_cookie",
+      "value": "WP%20Cookie%20check",
+      "domain": "mrreddyautomation.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_logged_in_d8b218b71a6c2f6db5788a38232e0f4b",
+      "value": "admin%7C1728657800%7CP3fnnJqFAPeOJY1IoepEZrQFai9hb8xd2R1KDdskmON%7Ca422ef13d90e01d8359f17a644d0a4363ecb70e1dbd2b089eb695dda2ffc5e32",
+      "domain": "mrreddyautomation.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wp-settings-1",
+      "value": "editor%3Dhtml%26libraryContent%3Dbrowse%26advImgDetails%3Dshow%26hidetb%3D1%26post_dfw%3Doff",
+      "domain": "mrreddyautomation.com",
+      "path": "/",
+      "expires": 1760021001.497645,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wp-settings-time-1",
+      "value": "1728485001",
+      "domain": "mrreddyautomation.com",
+      "path": "/",
+      "expires": 1760021001.49789,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,64 @@
+Welcome to the XWin X Server
+Vendor: Moba/X
+Release: 1.21.1.15
+OS: Windows 10  [Windows NT 10.0 build 19045] x86-on-x64
+Package: version  built 2025-01-18)
+
+XWin was started with the following command line:
+
+
+ D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\bin\XWin_MobaX.exe 
+ -silent-dup-error -notrayicon -nolisten inet6 -hostintitle +bs 
+ -clipboard -nowgl -multiwindow -noreset :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1920 h 1080
+(==) FontPath set to /usr/share/fonts/misc/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/misc/
+(==) FontPath set to /usr/share/fonts/TTF/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/TTF/
+(==) FontPath set to /usr/share/fonts/OTF/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/OTF/
+(==) FontPath set to /usr/share/fonts/Type1/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/Type1/
+(==) FontPath set to /usr/share/fonts/100dpi/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/100dpi/
+(==) FontPath set to /usr/share/fonts/75dpi/
+(==) FontPath set to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/75dpi/
+(==) FontPath set to "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/misc/,D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/TTF/,D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/OTF/,D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/Type1/,D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/100dpi/,D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b/usr/share/fonts/75dpi/"
+(==) Setting XKEYSYMDB path to XKEYSYMDB=D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\usr\share\X11\XKeysymDB
+(==) Setting XERRORDB path to XERRORDB=D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\usr\share\X11\XErrorDB
+(==) Setting XLOCALEDIR path to XLOCALEDIR=D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\usr\share\X11\locale
+(==) Logfile set to "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\var\log\xwin\XWin.0.log"
+(==) Setting XKB path to D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\usr\share\X11\xkb
+[368978.406] winUpdateDpi - primary monitor native DPI x 96 y 96
+[368978.453] winDetectSupportedEngines - RemoteSession: no
+[368978.734] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[368978.796] winDetectSupportedEngines - Returning, supported engines 00000005
+[368978.828] winSetEngine - Multi Window or Rootless => ShadowGDI
+[368978.828] winScreenInit - Using Windows display depth of 32 bits per pixel
+[368978.828] winAllocateFBShadowGDI - Creating DIB with width: 1920 height: 1080 depth: 32
+[368978.828] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[368978.828] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[368978.875] (II) IGLX: Loaded and initialized swrast
+[368978.875] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[368979.218] (II) [XKB]  "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\var\log\xwin\xkb_a06476" file successfully created.
+[368979.218] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[368979.218] (II) [XKB]  "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\bin\xkbcomp_w32.exe" -w 1 "-RD:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\usr\share\X11\xkb" -xkm "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\var\log\xwin\xkb_a06476" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\var\log\xwin\server-0.xkm"
+[368979.218] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[368980.546] (II) [XKB]  Successfully created keyboard mapping file "D:\playwright\PlaywrightAutomationTS\slash\mx86_64b\var\log\xwin\Mxt251\mx86_64b\var\log\xwin\xkb_a06476"
+[368980.578] winPointerWarpCursor - Discarding first warp: 960 540
+[368980.578] (--) 8 mouse buttons found
+[368980.578] (--) Setting autorepeat to delay=500, rate=31
+[368980.578] (--) Windows keyboard layout: "00004009" (00004009) "India", type 7
+[368980.578] (EE) Keyboardlayout "India" (00004009) is unknown, using X server default layout
+[368980.578] Rules = "base" Model = "pc105" Layout = "us" Variant = "" Options = ""
+[368980.578] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[368980.578] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[368980.578] winWindowProc - WM_EXITSIZEMOVE
+[368980.578] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[368980.578] winProcEstablishConnection - winInitClipboard returned.
+[368980.578] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[368980.593] Using Composite redirection
+[368980.593] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[368980.593] winClipboardProc - xcb_connect () returned and successfully opened the display.

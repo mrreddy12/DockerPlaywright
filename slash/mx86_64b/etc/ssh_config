@@ -1,0 +1,10 @@
+User "admin"
+ForwardAgent no
+Compression yes
+PreferredAuthentications hostbased,publickey,password,keyboard-interactive
+ForwardX11 yes
+ForwardX11Trusted yes
+NoHostAuthenticationForLocalhost yes
+StrictHostKeyChecking ask
+CheckHostIP no
+UseRoaming no

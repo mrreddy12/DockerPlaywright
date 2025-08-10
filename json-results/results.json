@@ -1,0 +1,298 @@
+{
+  "config": {
+    "configFile": "/app/playwright.config.ts",
+    "rootDir": "/app/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "json-results/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "01-browsers.spec.ts",
+      "file": "01-browsers.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "01-chrome",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18606,
+                  "error": {
+                    "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'",
+                    "stack": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/traces/c8c8bfd001444aba7073-514b095cdfd5c82639e3.trace'"
+                    },
+                    {
+                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-0/f65e32856cc0cb76b0168a0091d31336.zip'"
+                    },
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-08-10T07:29:24.057Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/app/test-results/01-browsers-01-chrome-firefox/test-finished-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/app/test-results/01-browsers-01-chrome-firefox/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c8c8bfd001444aba7073-514b095cdfd5c82639e3",
+          "file": "01-browsers.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "02-page.spec.ts",
+      "file": "02-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "getPageInfo",
+          "ok": false,
+          "tags": [
+            "rr",
+            "ss"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 20806,
+                  "error": {
+                    "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'",
+                    "stack": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/7d43429416b6c9065872-7ce21c0620d46c26e3be.network'"
+                    },
+                    {
+                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/098899fbc87128ea6f098a4260fd06f5.zip'"
+                    },
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Facebook – log in or sign up\n"
+                    },
+                    {
+                      "text": "https://www.facebook.com/\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-08-10T07:29:18.260Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/app/test-results/02-page-getPageInfo-firefox/test-finished-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/app/test-results/02-page-getPageInfo-firefox/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7d43429416b6c9065872-7ce21c0620d46c26e3be",
+          "file": "02-page.spec.ts",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "03-assertions.spec.ts",
+      "file": "03-assertions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "getPageInfo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 17952,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Playground – MR Rreddy\n"
+                    },
+                    {
+                      "text": "https://mrreddyautomation.com/playground/\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-08-10T07:30:54.720Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a797aeb567c5e27413f6-b7a46ed8473f31bedf49",
+          "file": "03-assertions.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-10T07:29:03.440Z",
+    "duration": 133536.542,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

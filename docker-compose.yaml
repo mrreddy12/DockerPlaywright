@@ -1,0 +1,18 @@
+services:
+  chrome-service:               # its service name
+    image: pt
+    container_name: chromecontainer
+    volumes:
+      - .:/app
+      - ./playwright-report-chrome:/app/playwright-report  # browser-wise report
+    working_dir: /app
+    command: npx playwright test --project=chromium
+
+  firefox-service:
+    image: pt
+    container_name: firefoxcontainer
+    volumes:
+      - .:/app
+      - ./playwright-report-firefox:/app/playwright-report
+    working_dir: /app
+    command: npx playwright test --project=firefox
