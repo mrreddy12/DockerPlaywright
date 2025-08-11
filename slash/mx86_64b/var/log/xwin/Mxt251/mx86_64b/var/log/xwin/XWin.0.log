@@ -62,3 +62,8 @@ winInitializeScreenDefaults - primary monitor w 1920 h 1080
 [368980.593] Using Composite redirection
 [368980.593] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
 [368980.593] winClipboardProc - xcb_connect () returned and successfully opened the display.
+[385049.359] winDeinitMultiWindowWM - Noting shutdown in progress
+[385049.437] winClipboardProc - winClipboardFlushWindowsMessageQueue trapped WM_QUIT message, exiting main loop.
+[385049.484] winMultiWindowXMsgProc - Fatal error 1 on xcb connection
+[385049.562] winDeinitMultiWindowWM - Noting shutdown in progress
+[385049.562] (II) Server terminated successfully (0). Closing log file.
