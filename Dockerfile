@@ -20,6 +20,7 @@ ENV NODE_ENV=development
 #RUN npm install
 # Install project dependencies...# Install Node.js dependencies using npm ci (clean install)
 RUN npm ci
+RUN npm ci && npm ls @playwright/test
 # Copy the rest of your application code into the container...# Copy the entire automation script from the host to the container's working directory
 COPY . .
 
