@@ -98,12 +98,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 30218,
+                  "duration": 29496,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-11T04:35:44.127Z",
+                  "startTime": "2025-08-11T10:52:33.410Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -159,7 +159,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 26064,
+                  "duration": 25962,
                   "errors": [],
                   "stdout": [
                     {
@@ -171,7 +171,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-11T04:35:44.258Z",
+                  "startTime": "2025-08-11T10:52:41.054Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -210,7 +210,7 @@
       "specs": [
         {
           "title": "getPageInfo",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -221,25 +221,11 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "failed",
-                  "duration": 9738,
-                  "error": {
-                    "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/a797aeb567c5e27413f6-b7a46ed8473f31bedf49-recording1.network'",
-                    "stack": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/a797aeb567c5e27413f6-b7a46ed8473f31bedf49-recording1.network'"
-                  },
-                  "errors": [
-                    {
-                      "message": "Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/traces/a797aeb567c5e27413f6-b7a46ed8473f31bedf49-recording1.network'"
-                    },
-                    {
-                      "message": "Error: ENOENT: no such file or directory, open '/app/test-results/.playwright-artifacts-1/a66e0719a9db697659a942462460591a.zip'"
-                    },
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    }
-                  ],
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11563,
+                  "errors": [],
                   "stdout": [
                     {
                       "text": "Playground – MR Rreddy\n"
@@ -250,7 +236,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-11T04:36:18.476Z",
+                  "startTime": "2025-08-11T10:53:09.886Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -259,14 +245,19 @@
                       "path": "/app/test-results/03-assertions-getPageInfo-firefox/test-finished-1.png"
                     },
                     {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/error-context.md"
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/app/test-results/03-assertions-getPageInfo-firefox/trace.zip"
                     }
                   ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "a797aeb567c5e27413f6-b7a46ed8473f31bedf49",
@@ -279,11 +270,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-11T04:35:31.100Z",
-    "duration": 88852.092,
-    "expected": 2,
+    "startTime": "2025-08-11T10:51:55.978Z",
+    "duration": 89017.35999999999,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
