@@ -11,8 +11,7 @@ WORKDIR /app
 # This helps with Docker's layer caching to speed up builds
 COPY package*.json ./
 
-# Set NODE_ENV=development so npm ci installs devDependencies too
-ENV NODE_ENV=development
+
 
 # Install Playwright browsers (chromium, firefox, webkit)....its reuired for older images like focal for noble not rquired
 #RUN npx playwright install
@@ -20,7 +19,7 @@ ENV NODE_ENV=development
 #RUN npm install
 # Install project dependencies...# Install Node.js dependencies using npm ci (clean install)
 RUN npm ci
-RUN npm ci && npm ls @playwright/test
+
 # Copy the rest of your application code into the container...# Copy the entire automation script from the host to the container's working directory
 COPY . .
 
